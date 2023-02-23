@@ -1,0 +1,169 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    gap: 8em;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 150px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary-text, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.image-header {
+    width: 400px;
+    height: auto;
+}
+.image1, .image4 {
+    width: 400px;
+    height: auto;
+}
+
+.image2, .image3 {
+    width: 525px;
+    height: auto;
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1f2937;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    color: #f9faf8;
+    padding-top: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.mailing-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 5px;
+    color: #f9faf8;
+    width: 600px;
+    }
+
+.mailing-text-1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.mailing-text-2 {
+    font-size: 12px;
+}
+
+.bottom-button {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.mailing-list {
+    display: flex;
+    justify-content: center;
+}
+
+
